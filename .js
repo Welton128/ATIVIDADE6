@@ -1,5 +1,4 @@
 let nome = prompt("Digite seu nome:");
-let N = parseInt(prompt("Digite o número de vezes para exibir o nome:"));
-for (let i = 0; i < N; i++) {
+for (let i = 0; i < 10; i++) {
   console.log(nome);
 }
