@@ -1,9 +1,5 @@
-let soma = 0;
-while (true) {
-  let numero = parseInt(prompt("Digite um número (ou um número negativo para encerrar):"));
-  if (numero < 0) {
-    break;
-  }
-  soma += numero;
+let nome = prompt("Digite seu nome:");
+let N = parseInt(prompt("Digite o número de vezes para exibir o nome:"));
+for (let i = 0; i < N; i++) {
+  console.log(nome);
 }
-console.log("A soma dos números é:", soma);
